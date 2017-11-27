@@ -68,8 +68,8 @@
 (load-theme 'zenburn t)
 
 ;;sublime text style minimap
-(minimap-mode 1)
-(setq minimap-window-location 'right)
+;;(minimap-mode 1)
+;;(setq minimap-window-location 'right)
 
 ;;cursor beacon behavior
 (beacon-mode 1)
@@ -82,4 +82,5 @@
 ;;magit
 (global-set-key (kbd "C-x g") 'magit-status)
 
-;;dummy comment
+;;ace window - jump between windows
+(global-set-key (kbd "M-p") 'ace-window)

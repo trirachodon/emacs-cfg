@@ -78,3 +78,6 @@
 
 ;; org mode enablement
 (require 'org)
+
+;;magit
+(global-set-key (kbd "C-x g") 'magit-status)
